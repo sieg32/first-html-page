@@ -1,0 +1,186 @@
+body{
+    margin: 0px;
+   
+}
+#bodyTop{
+    background-image: url("https://images.unsplash.com/photo-1541185934-01b600ea069c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80");
+    background-size: cover;
+
+}
+.header{
+    
+    padding : 6px; 
+
+
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.1),rgba(32, 32, 32, 0.1)) ;
+    display: flex;
+    justify-content: space-between;
+
+}
+#header_options{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    
+    padding: 0px 10px;
+    font-size: 11px;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 1px 1px rgb(51, 50, 50);
+}
+
+
+.header_text{
+    margin: 10px 20px;
+    color: white;
+
+}
+#header_options :hover{
+    display: flex;
+    align-items: center;
+    height :40px;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 50px rgb(125, 95, 245), 0px 0px 50px rgb(125, 95, 245), 0px 0px 50px rgb(125, 95, 245), 0px 0px 50px rgb(125, 95, 245);
+}
+
+#logo-img img{
+    width: 100px;
+    background-color: transparent;
+}
+
+
+    
+    
+.body{
+    
+    
+    text-shadow: 2px 2px 2px black;
+    
+    color: white;
+    font-size: 25px;
+    text-align: center;
+
+    font-family: 'Bruno Ace SC', cursive;
+    font-weight: 300;
+    
+    padding : 200px;
+}
+
+.body2{
+    display: flex;
+    justify-content:space-around;
+
+    background-image: linear-gradient(to right, black, rgb(0, 0, 0)) ;
+    color: whitesmoke;
+    text-shadow: 2px 2px black;
+    border-top: 4px solid black;
+} 
+
+
+#textLeft{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    justify-content: center;
+    width: 40%;
+
+}
+
+#textLeft-bottom{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 50px;
+    display: flex;
+    align-items:first baseline;
+    justify-content: space-between;
+}
+
+#tlb1{
+    width: 300px;
+}
+#tlb2{
+    width: 200px;   
+}
+#tlb1 h3{
+    border-bottom: 2px solid whitesmoke;
+    padding-bottom: 10px;
+    text-align: left;
+}
+#tlb2 h3{
+    border-bottom: 2px solid whitesmoke;
+    padding-bottom: 10px;
+    text-align: right;
+}
+.animated_starship img{
+    width: 450px;
+}
+
+
+.body3{
+    display: flex;
+    justify-content:space-around;
+
+    background-image: linear-gradient(to right, black, rgb(0, 0, 0)) ;
+    color: whitesmoke;
+    text-shadow: 2px 2px black;
+    border-top: 4px solid black;
+} 
+
+.right{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    justify-content: center;
+    width: 40%;
+
+}
+.body4{
+    background-color: black;
+    color: white;
+    }
+#imageright img{
+    width: 450px;
+}
+.body4 img{
+    width: 100%;
+}
+
+.body4-center{
+    display: flex;
+}
+#body4-textLeft-top{
+    padding-right: 30px;
+    padding-left: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+
+}
+#body4-center-table{
+    display: flex;
+    padding: 30px;
+}
+.footer{
+    display: flex;
+    padding: 20px 30px;
+    justify-content: end;
+    align-items: center;
+    padding: 10px 20px;
+    color: aliceblue;
+    background-image: linear-gradient(black , rgb(49, 49, 49));
+}
+#knowbtn{
+    color : white;
+    font-size: 17px;
+    background-color: transparent;
+    border: none;
+    padding :  20px 50px;
+    border-radius: 50px;
+}
+#button :hover{
+    text-shadow: 0px 0px 50px rgb(107, 14, 230),0px 0px 50px rgb(107, 14, 230),0px 0px 50px rgb(107, 14, 230);
+}
